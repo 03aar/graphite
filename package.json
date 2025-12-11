@@ -1,0 +1,29 @@
+{
+  "name": "leafit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "db:migrate": "cd apps/web && pnpm prisma migrate dev",
+    "db:migrate:deploy": "cd apps/web && pnpm prisma migrate deploy",
+    "db:seed": "cd apps/web && pnpm prisma db seed",
+    "db:studio": "cd apps/web && pnpm prisma studio",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "docker:logs": "docker compose logs -f",
+    "setup": "pnpm install && pnpm db:migrate && pnpm db:seed"
+  },
+  "devDependencies": {
+    "turbo": "^2.2.3",
+    "typescript": "^5.6.3"
+  },
+  "packageManager": "pnpm@9.12.3",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  }
+}
