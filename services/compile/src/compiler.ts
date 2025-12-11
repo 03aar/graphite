@@ -36,9 +36,9 @@ export async function compileLatex(options: CompileOptions): Promise<CompileResu
 
     // Map engine to latexmk option
     const engineMap: Record<BuildEngine, string> = {
-      PDFLATEX: '-pdf',
-      XELATEX: '-xelatex',
-      LUALATEX: '-lualatex',
+      pdflatex: '-pdf',
+      xelatex: '-xelatex',
+      lualatex: '-lualatex',
     };
 
     const latexmkEngine = engineMap[engine] || '-pdf';

@@ -38,7 +38,7 @@ const worker = new Worker<CompileJobData>(
 
       // Compile LaTeX
       const result = await compileLatex({
-        files: files.map((f) => ({
+        files: files.map((f: any) => ({
           path: f.path,
           content: f.content || '',
         })),

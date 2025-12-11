@@ -126,6 +126,13 @@ export interface CompileRequest {
   engine: BuildEngine;
 }
 
+export interface CompileJobData {
+  buildId: string;
+  projectId: string;
+  entryFile: string;
+  engine: BuildEngine;
+}
+
 export interface CompileResult {
   success: boolean;
   pdfUrl?: string;
