@@ -25,6 +25,7 @@
     "@radix-ui/react-select": "^2.1.2",
     "aws-sdk": "^2.1691.0",
     "bullmq": "^5.23.2",
+    "lucide-react": "^0.454.0",
     "monaco-editor": "^0.52.0",
     "next": "15.0.3",
     "next-auth": "^4.24.10",
