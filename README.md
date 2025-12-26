@@ -1,6 +1,37 @@
 # LeafIt - Collaborative LaTeX Editor
 
-An Overleaf-style MVP with real-time LaTeX editing, PDF compilation, and collaborative features.
+An Overleaf-style application with **three powerful modes**: a simple compiler, a full-featured editor, and collaborative editing with real-time features.
+
+## 🎯 Three Ways to Use LeafIt
+
+### 1. **Simple Compiler** (`/simple`) - Quick & Easy
+- ✅ **No login, no database** - Start immediately
+- ✅ Monaco editor with PDF preview
+- ✅ Three LaTeX engines (pdfLaTeX, XeLaTeX, LuaLaTeX)
+- ✅ Perfect for quick documents
+- 📖 See [SIMPLE_COMPILER.md](./SIMPLE_COMPILER.md)
+
+### 2. **Full Editor** (`/editor`) - Feature-Rich
+- ✅ **No login required** - Works offline
+- ✅ Comprehensive toolbar with 30+ LaTeX commands
+- ✅ Templates (Article, Resume, Beamer, Report)
+- ✅ Project management with save/load
+- ✅ Keyboard shortcuts & command palette
+- ✅ Dark/light theme, customizable settings
+- ✅ Export to PDF and .tex files
+- 📖 See [LATEX_EDITOR.md](./LATEX_EDITOR.md)
+
+### 3. **Collaborative Mode** (Main App) - Team Work
+- ✅ **Full Overleaf-style experience**
+- ✅ Real-time multi-user editing
+- ✅ User authentication and project sharing
+- ✅ Version history and snapshots
+- ✅ Role-based access control
+- 📖 Continue reading below
+
+---
+
+## Original Features (Collaborative Mode)
 
 ## Features
 
